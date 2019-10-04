@@ -1,7 +1,5 @@
 # svmroc_cv.R
 
-# to delete later: I'm changing Y to A so that it matches notation from the paper (8/23/18)
-
 # A function to estimate the SVM ROC curve using cross-validation
 
 #' Estimate SVM ROC curve using cross-validation
