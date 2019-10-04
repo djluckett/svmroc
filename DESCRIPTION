@@ -2,9 +2,9 @@ Package: svmroc
 Type: Package
 Title: Receiver operating characteristic curves for the support vector machine
 Version: 0.1.0
-Authors@R: person("Daniel", "Luckett", email = "luckett@unc.edu", 
+Authors@R: person("Daniel", "Luckett", email = "luckett@live.unc.edu", 
   role = c("aut", "cre"))
-Maintainer: Daniel Luckett <luckett@unc.edu>
+Maintainer: Daniel Luckett <luckett@live.unc.edu>
 Description: This package includes functions to fit a weighted support vector machine (SVM), 
     estimate the associated receiver operating characteristic (ROC) curve, construct 
     confidence bands for the ROC curve, and create ROC curve plots. 
@@ -12,6 +12,7 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Depends:
+    boot,
     ggplot2,
     kernlab,
     methods
