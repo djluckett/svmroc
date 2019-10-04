@@ -18,6 +18,9 @@ plot.svmroc(object, xlab = "One minus specificity", ylab = "Sensitivity",
 (the closest to (0, 1) in Euclidean distance) is marked on the plot.
 Defaults to \code{TRUE}.}
 }
+\value{
+A plot as a object of class \code{ggplot}.
+}
 \description{
 \code{plot.svmroc} returns a plot of the ROC curve associated
 with an object of class \code{svmroc}.

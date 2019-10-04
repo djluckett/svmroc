@@ -9,7 +9,8 @@ predict.svmroc(object, newdata, weight = NULL)
 \arguments{
 \item{object}{An object of class \code{svmroc}}
 
-\item{newdata}{New data on which to predict.}
+\item{newdata}{New data on which to predict, a matrix with the same columns as
+\code{X} used for the fit producing \code{object}.}
 
 \item{weight}{The weight to used for prediction. If \code{NULL}, the optimal weight
 is calculated and used. Defaults to \code{NULL}.}

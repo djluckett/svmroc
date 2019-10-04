@@ -7,7 +7,7 @@
 opt_weight(object)
 }
 \arguments{
-\item{object}{An object of class \code{svmroc}.}
+\item{object}{An object of class \code{svmroc} or \code{conf_band}.}
 }
 \value{
 A list with the following components: \code{weight}, the optimal weight;

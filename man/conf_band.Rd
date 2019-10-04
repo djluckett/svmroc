@@ -19,10 +19,10 @@ will produce 90\% confidence bands. Defaults to 0.1.}
 \value{
 An object of class \code{conf_band}, a list with the following components:
   \code{lower}, a vector of values for the lower confidence band; \code{upper}, a
-  vectoro of values for the upper confidence band; \code{y}, values of the ROC curve;
+  vector of values for the upper confidence band; \code{y}, values of the ROC curve;
   and \code{x}, values used for interpolation.
 }
 \description{
 \code{conf_band} constructs bootstrap confidence bands for the SVM ROC curve from
-  an object of class \code{svmroc}
+  an object of class \code{svmroc}.
 }

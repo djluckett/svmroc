@@ -4,14 +4,18 @@
 \alias{genmod2}
 \title{Second generative model}
 \usage{
-genmod2(n, beta, variance = 1)
+genmod2(n, mu, beta, variance, q)
 }
 \arguments{
-\item{n}{The sample size.}
+\item{n}{Sample size.}
+
+\item{mu}{A parameter giving the mean (times plus or minus one).}
 
 \item{beta}{A vector of parameters with length equal to the number of covariates.}
 
 \item{variance}{The variance of the error term.}
+
+\item{q}{A parameter to control the proportion that is diseased.}
 }
 \value{
 A list with the following components: \code{A}, a vector of class labels; and

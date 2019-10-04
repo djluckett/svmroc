@@ -18,6 +18,9 @@ plot.conf_band(object, xlab = "One minus specificity", ylab = "Sensitivity",
 (the closest to (0, 1) in Euclidean distance) is marked on the plot.
 Defaults to \code{TRUE}.}
 }
+\value{
+A plot as a object of class \code{ggplot}.
+}
 \description{
 \code{plot.conf_band} produces a plot of the ROC curve with confidence bands
   from an object of class conf_band.

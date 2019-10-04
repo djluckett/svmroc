@@ -7,7 +7,7 @@
 auc(object)
 }
 \arguments{
-\item{object}{An object of class \code{svmroc}}
+\item{object}{An object of class \code{svmroc} or \code{roc}.}
 }
 \value{
 The area under the curve.
